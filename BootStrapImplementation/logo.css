@@ -62,6 +62,7 @@ body{
 }
 .connect:hover{
     background-color:white;
+    cursor:pointer;
 }
 .end{
     background-color:darkgrey;
@@ -92,11 +93,12 @@ body{
     height:25px;
     border-radius:5px 5px;
 }
-    .buttons:hover {
-        background-color: orange;
-        border: 2px solid orange;
-        width: 90px;
-        height: 25px;
-        border-radius: 5px 5px;
-        color:white;
-    }
+.buttons:hover {
+    background-color: orange;
+    border: 2px solid orange;
+    width: 90px;
+    height: 25px;
+    border-radius: 5px 5px;
+    color:white;
+    cursor:pointer;
+}
